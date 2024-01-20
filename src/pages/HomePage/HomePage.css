@@ -1,0 +1,22 @@
+/* Quiz Styles */
+.result-section {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f8f8f8;
+  }
+  
+  .industry-cards {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .industry-card {
+    flex: 1;
+    padding: 20px;
+    margin: 0 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    text-align: center;
+  }
+  

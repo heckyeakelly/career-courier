@@ -1,10 +1,13 @@
 // Import necessary React libraries
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
+import './HomePage.css'
 
 // Define the main Quiz component
 const HomePage = () => {
   // State to manage user answers
   const [answers, setAnswers] = useState([]);
+  const [isSubmitted, setIsSubmitted] = useState(false);
 
   // Questions data
   const questions = [
@@ -24,12 +27,8 @@ const HomePage = () => {
 
   // Function to submit the quiz and display results
   const submitQuiz = () => {
-    // Add logic to determine the career based on the user's answers
-    // For simplicity, let's just display the answers for now
-    alert('Your answers: ' + answers.join(', '));
+    setIsSubmitted(true);
   };
-
-  console.log(questions)
 
   return (
     <main>
@@ -76,6 +75,19 @@ const HomePage = () => {
         </article>
 
       </section>
+
+      {isSubmitted && (
+        <section className="results">
+          <h2>Based on your answers, we think these industries would be a great fit.</h2>
+          <div className="industry-cards">
+            <Link to='/engineering'>
+            <div className="industry-card">Explore jobs in Engineering</div>
+            </Link>
+            <div className="industry-card">Explore jobs in Math</div>
+            <div className="industry-card">Explore jobs in Technology</div>
+          </div>
+        </section>
+      )}
     </main>
   );
 };
