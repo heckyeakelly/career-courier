@@ -60,7 +60,7 @@ const HomePage = () => {
               <span>{question[index, 1]}</span>
               {/* Display the current value selected on the slider */}
               {/* <span>{answers[index] || 0}</span> */}
-            </divcd>
+            </div>
           ))}
           {/* Button to submit the quiz */}
           <button onClick={submitQuiz}>Submit</button>
@@ -68,13 +68,13 @@ const HomePage = () => {
       </section>
 
       <section className="results">
-      <article className="results__introduction">
-<h3>Based on your qualities, we think that 
-these industries make a great fit for you. </h3>
-<p>Let’s browse some career options in your recommended industries.
-</p>
-      </article>
-      
+        <article className="results__introduction">
+          <h3>Based on your qualities, we think that
+            these industries make a great fit for you. </h3>
+          <p>Let's browse some career options in your recommended industries.
+          </p>
+        </article>
+
       </section>
     </main>
   );
