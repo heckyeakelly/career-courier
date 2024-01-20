@@ -60,7 +60,7 @@ const HomePage = () => {
               <span>{question[index, 1]}</span>
               {/* Display the current value selected on the slider */}
               {/* <span>{answers[index] || 0}</span> */}
-            </div>
+            </divcd>
           ))}
           {/* Button to submit the quiz */}
           <button onClick={submitQuiz}>Submit</button>
