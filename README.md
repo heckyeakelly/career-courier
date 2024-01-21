@@ -1,70 +1,39 @@
-# Getting Started with Create React App
+# Career Courier
+A quiz for high school students to determine their best career match.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Adriana Baric, Euna Lim, Kelly Kou and Trang Do for [Hackville 2024](https://www.hackville.io/)
 
-## Available Scripts
+## Inspiration
+During our ideation session, we discovered a shared experience among us: uncertainty about what to pursue after high school. We discussed the anxiety associated with changing majors, self-doubt, and regrets stemming from the decisions made by our young, 17-year-old brains.
 
-In the project directory, you can run:
+Did you know that up to 70% of students in Ontario change their majors during their undergraduate degree? Students in this province collectively spend billions of dollars yearly on tuition for majors they won’t finish! It doesn’t have to be this way. That’s why we built Career Courier.
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## What it does
+Career Courier is an interactive career finder empowering high school students to make informed decisions about their professional futures. Created in response to paywalls and information overload on other sites, our web app delivers the necessary information and provides the resources to shape students' futures.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+**What sets us apart?** 
+- Facilitating connections with industry experts for students to gain real, human insight to the career students are interested in 
+- Providing information in easily understandable formats using high-impact visuals
+- Guiding you to the next stage through showcasing available programs 
+- Eliminating the need for users to respond to lengthy and overly specific personality test questions
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## How we built it
+We created an interactive high-fidelity prototype using Figma to simulate an informative yet easy-to-follow user experience. This prototype was connected to a public domain using GoDaddy.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Challenges we ran into
+We intended to use Tempo to turn the wireframes into a dynamic front-end web application but weren’t able to adjust to the learning curve fast enough. 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Accomplishments that we're proud of
+We are proud to have set a solid ground work for our design by doing research and competitor analysis before we got to design. It set us up for informed design decision making. We are also proud to implement good UX and UI practices into our design. 
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## What we learned
+We learned that just because a service is widely available, it doesn't automatically ensure a good user experience. Even with so many career-finding sites around, it surprised us to see the troubling stats of students struggling to plan their future. The existing sites seemed to overload users with information, adding to the anxiety students already feel. So, we decided to dig deeper into our research, aiming to create a platform that simplifies the process and truly helps students navigate their career paths with ease.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## What's next for Career Courier
+We didn’t have time to implement any back-end data processing operations. If we did, we would have connected the professions from the Government of Canada’s JobBank via API, and written an algorithm to match the user’s quiz results to a job’s real attributes.
