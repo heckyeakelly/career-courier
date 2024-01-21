@@ -1,9 +1,21 @@
-.App {
-  text-align: center;
+body {
+  overflow: hidden; 
+  display: flex;
+  justify-content: center;
 }
 
-.{
-  overflow-x: hidden; 
+iframe {
+  width: 100vw;
+  height: 100vh;
+
+}
+
+div {
+  /* height: 100%; */
+}
+
+.App {
+  text-align: center;
 }
 
 .App-logo {
@@ -41,8 +53,3 @@
   }
 }
 
-iframe {
-  width: 100vw;
-  height: 100vh;
-
-}

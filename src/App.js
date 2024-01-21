@@ -11,7 +11,10 @@ import EngineeringPage from "./pages/EngineeringPage/EngineeringPage";
 
 function App() {
   return (
-    <iframe src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FvUxL07tUr3rdVn0HptmlTw%2FHACKVILLE%3Ftype%3Ddesign%26node-id%3D17-203%26t%3DMyz5w78qUvIBIywh-1%26scaling%3Dmin-zoom%26page-id%3D0%253A1%26mode%3Ddesign&hide-ui=1" allowfullscreen></iframe>
+
+    <iframe src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FvUxL07tUr3rdVn0HptmlTw%2FHACKVILLE%3Ftype%3Ddesign%26node-id%3D99-228%26t%3D8tXSvNLQCYWAjgP0-1%26scaling%3Dmin-zoom%26page-id%3D99%253A34%26starting-point-node-id%3D99%253A228%26mode%3Ddesign&hide-ui=1" allowfullscreen></iframe>
+
+
 
   //   <BrowserRouter>
   //   <Header/>
