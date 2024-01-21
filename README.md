@@ -12,10 +12,10 @@ Did you know that up to 70% of students in Ontario change their majors during th
 ## What it does
 Career Courier is an interactive career finder empowering high school students to make informed decisions about their professional futures. Created in response to paywalls and information overload on other sites, our web app delivers the necessary information and provides the resources to shape students' futures.
 
-**What sets us apart?** 
+__What sets us apart?__
 - Facilitating connections with industry experts for students to gain real, human insight to the career students are interested in 
 - Providing information in easily understandable formats using high-impact visuals
-- Guiding you to the next stage through showcasing available programs 
+- Guiding users to the next stage through showcasing available programs 
 - Eliminating the need for users to respond to lengthy and overly specific personality test questions
 
 
